@@ -13,7 +13,7 @@ class Config(object):
      API_ID = int(os.environ.get("API_ID", ""))
      API_HASH = os.environ.get("API_HASH", "")
      #Array to store users who are authorized to use the bot
-     ADMIN = os.environ.get("ADMIN")
+     ADMIN = os.environ.get("ADMIN", "10000000")
      #Your Mongo DB Database Name
      DATABASE_NAME = os.environ.get("DATABASE_NAME", "myRenamerDB")
      #Your Mongo DB URL Obtained From mongodb.com
