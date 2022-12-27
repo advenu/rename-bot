@@ -15,4 +15,6 @@ if __name__ == "__main__" :
         api_hash=Config.API_HASH,
         plugins=plugins
     )
+    print('Session loaded successfully')
+    print('Starting bot...')
     app.run()
